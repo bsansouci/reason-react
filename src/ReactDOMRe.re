@@ -107,7 +107,8 @@ type domProps = {
   ariaDisabled: bool,
   [@bs.optional] [@bs.as "aria-hidden"]
   ariaHidden: bool,
-  /* [@bs.optional] [@bs.as "aria-invalid"] ariaInvalid: grammar|false|spelling|true, */
+  [@bs.optional] [@bs.as "aria-invalid"] 
+  ariaInvalid: bool,
   [@bs.optional] [@bs.as "aria-keyshortcuts"]
   ariaKeyshortcuts: string,
   [@bs.optional] [@bs.as "aria-label"]
@@ -1110,7 +1111,8 @@ type props = {
   ariaDisabled: bool,
   [@bs.optional] [@bs.as "aria-hidden"]
   ariaHidden: bool,
-  /* [@bs.optional] [@bs.as "aria-invalid"] ariaInvalid: grammar|false|spelling|true, */
+  [@bs.optional] [@bs.as "aria-invalid"] 
+  ariaInvalid: bool,
   [@bs.optional] [@bs.as "aria-keyshortcuts"]
   ariaKeyshortcuts: string,
   [@bs.optional] [@bs.as "aria-label"]
